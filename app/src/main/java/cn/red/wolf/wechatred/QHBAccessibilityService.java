@@ -45,13 +45,13 @@ public class QHBAccessibilityService extends AccessibilityService {
                 } else if (className.equals("com.tencent.mm.plugin.luckymoney.ui.LuckyMoneyReceiveUI")) {
                     //  开红包
                     Log.e("demo", "开红包");
-                    inputClick("com.tencent.mm:id/be_");
+                    inputClick("com.tencent.mm:id/bi3");
                     //  关闭红包界面
-                    inputClick("com.tencent.mm:id/bed");
+                    inputClick("com.tencent.mm:id/bfu");
                 } else if (className.equals("com.tencent.mm.plugin.luckymoney.ui.LuckyMoneyDetailUI")) {
                     //退出红包
                     Log.e("demo", "退出红包");
-                    inputClick("com.tencent.mm:id/gr");
+                    inputClick("com.tencent.mm:id/gv");
                 }
                 break;
         }
